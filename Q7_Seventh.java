@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class Q6_GcdOfString {
+class Q7_Seventh {
 
     static int M_Items_N_Circle(int n, int m, int k)
     {
