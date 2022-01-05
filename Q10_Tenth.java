@@ -13,7 +13,7 @@ class Q10_Tenth
             pq.add(sc.nextInt());
         }
 
-        for(int i = 10; i < 100; i++) {
+        for(int i = 10; i < 10000000; i++) {
             pq.add(sc.nextInt());
             pq.poll();
         }
