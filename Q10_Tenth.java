@@ -8,13 +8,18 @@ class Q10_Tenth
 	{
         Scanner sc = new Scanner(System.in);
 
-        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
-        for(int i = 0; i < 10000000; i++) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        for(int i = 0; i < 10; i++) {
             pq.add(sc.nextInt());
         }
 
-        for(int i = 0; i < 10; i++) {
-            System.out.print(pq.poll() + " ");
+        for(int i = 10; i < 100; i++) {
+            pq.add(sc.nextInt());
+            pq.poll();
         }
+
+        Iterator itr = pq.iterator();
+        while (itr.hasNext())
+            System.out.print(itr.next() + " ");
 	}
 }
