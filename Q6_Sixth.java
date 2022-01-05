@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class Q6_GcdOfString {
+class Q6_Sixth {
 
     static public String gcdOfStrings(String str1, String str2) {
         if (str2.length() > str1.length()) return gcdOfStrings(str2, str1);
