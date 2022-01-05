@@ -3,7 +3,7 @@
 import java.util.*;
 import java.io.*;
 
-class Eight
+class Q8_Eight
 {
     public static void main(String[] args)
     {

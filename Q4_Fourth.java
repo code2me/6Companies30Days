@@ -2,7 +2,7 @@
 
 import java.util.*;
  
-class Fourth
+class Q4_Fourth
 {
    public static void main(String[] args) 
    {

@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 
-class Third {
+class Q3_Third {
 	public static void main(String[] args) throws IOException
 	{
 	    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

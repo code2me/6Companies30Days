@@ -4,7 +4,7 @@
 import java.io.*;
 import java.util.*;
 
-class First {
+class Q1_First {
 
     static public List<List<String>> Anagrams(String[] string_list) {
         List<List<String>> ans = new ArrayList<>();
